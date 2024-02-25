@@ -1,0 +1,2 @@
+A ranking system to weight the difficulty of courses
+    +/- credits that its worth
