@@ -1,2 +1,7 @@
 A ranking system to weight the difficulty of courses
     +/- credits that its worth
+
+Rocco:
+populate courses page with course information from json
+add a search feature to look for classes by class number
+add buttons for each course to link to the individual course page
