@@ -13,19 +13,19 @@ soup = BeautifulSoup(text, "html.parser")
 majors = soup.find_all("div", id="atozindex")[0].find_all("li")
 
 for major in majors:
-    data.append({major.a.string: {}})
-    data[-1][major.a.string]["loc"] = major.a.get("href")
-    data[-1][major.a.string]["courses"] = []
+    data.append({"major": major.a.string})
+    data[-1]["loc"] = major.a.get("href")
+    data[-1]["courses"] = []
 
 for major in data:
-    html = urllib.request.urlopen(f"{BASE_URL}{major[list(major.keys())[0]]['loc']}")
+    html = urllib.request.urlopen(f"{BASE_URL}{major['loc']}")
     text = html.read().decode("utf-8")
     html.close()
     soup = BeautifulSoup(text, "html.parser")
 
-    courses = soup.find_all("a", class_="toggle-accordion courseblocklink")
+    courses = soup.find_all("a", class_="toggle-accordion courseblocklink open")
     for course in courses:
-        major[list(major.keys())[0]]["courses"].append(course.text.replace("\u00a0", ""))
+        major["courses"].append(course.text.replace("\u00a0", "").replace("\n", ""))
 
 file = open("courses.json", "w")
 file.write(json.dumps(data, indent=4))
