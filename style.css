@@ -20,7 +20,7 @@ body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     color: white;
-    background-color: rgb(33,37,41);
+    background-color: rgb(33, 37, 41);
 }
 
 .cover-container {
@@ -171,47 +171,53 @@ body {
 }
 
 :root {
-  --rad: .7rem;
-  --dur: .3s;
-  --color-dark: #2f2f2f;
-  --color-light: #fff;
-  --color-brand: #57bd84;
-  --font-fam: 'Lato', sans-serif;
-  --height: 2rem;
-  --bez: cubic-bezier(0, 0, 0.43, 1.49);
+    --rad: .7rem;
+    --dur: .3s;
+    --color-dark: #2f2f2f;
+    --color-light: #fff;
+    --color-brand: #57bd84;
+    --font-fam: 'Lato', sans-serif;
+    --height: 2rem;
+    --bez: cubic-bezier(0, 0, 0.43, 1.49);
 }
 
 form {
-  position: relative;
-  width: 15rem;
-  background: var(--color-brand);
-  border-radius: var(--rad);
+    position: relative;
+    width: 15rem;
+    background: var(--color-brand);
+    border-radius: var(--rad);
 }
-input, button {
-  height: var(--height);
-  font-family: var(--font-fam);
-  border: 0;
-  color: var(--color-dark);
-  font-size: 1rem;
+
+input,
+button {
+    height: var(--height);
+    font-family: var(--font-fam);
+    border: 0;
+    color: var(--color-dark);
+    font-size: 1rem;
 }
+
 input[type="search"] {
-  width: 100%;
-  background: var(--color-light);
-  padding: 0 1.6rem;
-  border-radius: var(--rad);
-  appearance: none;
-  transition: all var(--dur) var(--bez);
-  transition-property: width, border-radius;
-  z-index: 1;
-  position: relative;
+    width: 100%;
+    background: var(--color-light);
+    padding: 0 1.6rem;
+    border-radius: var(--rad);
+    appearance: none;
+    transition: all var(--dur) var(--bez);
+    transition-property: width, border-radius;
+    z-index: 1;
+    position: relative;
 }
+
 input:not(:placeholder-shown) {
-  border-radius: var(--rad) 0 0 var(--rad);
-  width: calc(100% - var(--btn-width));
-  + button {
-    display: block;
-  }
+    border-radius: var(--rad) 0 0 var(--rad);
+    width: calc(100% - var(--btn-width));
+
+    +button {
+        display: block;
+    }
 }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -357,34 +363,74 @@ h2 {
 
 p {
     color: lightgrey;
+    text-wrap: pretty;
 }
 
 
 .course-container {
     background-color: rgba(24, 29, 31, 0.7);
     padding: 10px;
-    
+
     border-radius: 15px;
 }
 
 
 .py-5 {
     padding-top: 2rem !important;
-    padding-bottom: 0rem !important; /* For the courses list */
+    padding-bottom: 0rem !important;
+    /* For the courses list */
 }
+
 .search-bar {
     padding: 15px;
 }
+
 #searchForm {
-    width: 100%; /* Set the width of the form to 100% */
+    width: 100%;
+    /* Set the width of the form to 100% */
 }
 
 #search {
-    width: 100%; /* Set the width of the search input to 100% */
-    padding: 15px; /* Add padding as needed */
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    width: 100%;
+    /* Set the width of the search input to 100% */
+    padding: 15px;
+    /* Add padding as needed */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+    border-radius: 5px;
+    /* Add rounded corners */
+    border: 1px solid #cfdace;
+    /* Add a border */
+}
+
+#search:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: black; /* Change the border color when the input is focused */
+    box-shadow: 0 0 0 0.2rem rgba(10, 10, 10, 0.25); /* Add a shadow when the input is focused */
 }
 
 .course-container:hover {
-    background-color: rgba(61, 72, 77, 0.7); /* Change the background color on hover */
+    background-color: rgba(61, 72, 77, 0.7);
+    /* Change the background color on hover */
 }
+
+.pb-2 {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem !important;
+}
+
+/* .nav-link.active {
+    color: gold;
+} */
+
+/* .nav-masthead .active {
+    color: #fdc82f;
+    border-bottom-color: #fdc82f;
+} */
+
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
+
