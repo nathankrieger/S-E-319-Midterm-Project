@@ -23,6 +23,8 @@ for major in data:
     html.close()
     soup = BeautifulSoup(text, "html.parser")
 
+    print(text)
+
     courses = soup.find_all("a", class_="toggle-accordion courseblocklink open")
     for course in courses:
         major["courses"].append(course.text.replace("\u00a0", "").replace("\n", ""))

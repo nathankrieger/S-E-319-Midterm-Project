@@ -1,5 +1,8 @@
-A ranking system to weight the difficulty of courses
-    +/- credits that its worth
+Nathan:
+    A ranking system to weight the difficulty of courses
+        +/- credits that its worth
+    Stricter naming
+    Everything anonymous
 
 Rocco:
 populate courses page with course information from json
