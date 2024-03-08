@@ -15,47 +15,46 @@
         crossorigin="anonymous"></script>
 
     <script src="courses.js"></script>
-    <title>Computer Parts</title>
+    <title>Courses</title>
 
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="style.css" rel="stylesheet">
 
 </head>
 
-<body style="background-color: rgb(33,37,41);">
+<body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Courses</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0 active" href="courses.html">Courses</a>
+                    <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
+                </nav>
+            </div>
+        </header>
 
-    <!-- Custom styles for this template -->
-    <!--<link href="courses.css" rel="stylesheet">-->
-    </head>
-
-    <body class="d-flex h-100 text-center text-bg-dark">
-        <div class="d-flex h-100 p-3 mx-auto flex-column">
-            <header class="mb-auto">
-                <div>
-                    <h3 class="float-md-start mb-0">Home</h3>
-                    <nav class="nav nav-masthead justify-content-center float-md-end">
-                        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link fw-bold py-1 px-0 active" href="courses.html">Courses</a>
-                        <a class="nav-link fw-bold py-1 px-0" href="about.html">About</a>
-                    </nav>
-                </div>
-            </header>
-
-            <main>
+        <main>
             <div id="maincontainer" class="container px-4 py-5" id="hanging-icons">
-                <h2 class="pb-2 border-bottom">Courses</h2>
-                <form onsubmit="event.preventDefault();" role="search">
-                    <input id="search" type="search" placeholder="Search..." autofocus required />
+                <h2 class="pb-2 border-bottom">Course List</h2>
+                
+                <div class="search-bar">
+                    <form id="searchForm" onsubmit="event.preventDefault();" role="search">
+                    <input id="search" type="search" placeholder="Search By Course..." autofocus required />
                 </form>
+                </div>
+                
+                
+                
                 <div id="classescontainer"></div>
             </div>
-            </main>
+        </main>
 
-            <footer class="mt-auto text-white-50 text-center">
-                <p>Website made by <strong>Nathan Krieger</strong> & <strong>Rocco Zollo</strong></p>
-            </footer>
-        </div>
-
-    </body>
+        <footer class="mt-auto text-white-50 text-center" style="padding-top: 40px;">
+            <p>Website made by <strong>Nathan Krieger</strong> & <strong>Rocco Zollo</strong></p>
+        </footer>
+    </div>
+</body>
 
 </html>
