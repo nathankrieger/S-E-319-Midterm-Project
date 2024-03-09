@@ -38,22 +38,26 @@
         <main>
             <div id="maincontainer" class="container px-4 py-5" id="hanging-icons">
                 <h2 class="pb-2 border-bottom">Course List</h2>
-                
+
                 <div class="search-bar">
                     <form id="searchForm" onsubmit="event.preventDefault();" role="search">
-                    <input id="search" type="search" placeholder="Search By Course..." autofocus required />
-                </form>
+                        <input id="search" type="search" placeholder="Search By Course..." autofocus required
+                            autocomplete="off" />
+
+                    </form>
                 </div>
-                
-                
-                
+
+
+
                 <div id="classescontainer"></div>
             </div>
         </main>
 
-        <footer class="mt-auto text-white-50 text-center" style="padding-top: 40px;">
+        <footer class="mt-auto text-white-50 text-center" style="position: fixed; padding: 20px; left: 0; right: 0;">
             <p>Website made by <strong>Nathan Krieger</strong> & <strong>Rocco Zollo</strong></p>
         </footer>
+        
+        
     </div>
 </body>
 
