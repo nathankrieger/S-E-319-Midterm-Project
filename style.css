@@ -22,11 +22,15 @@ body {
     color: white;
     background-color: rgb(33, 37, 41);
     min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
 .cover-container {
     max-width: 42em;
     /* min-width: 700px; */
+    overflow: auto;
+
+    flex: 1;
 }
 
 /*

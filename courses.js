@@ -32,9 +32,9 @@ function generateCourses(courses, query) {
   const container = document.getElementById("classescontainer");
   container.innerHTML = '';
 
-  if (!query.trim()) {
-    return; // Exit early if query is empty or only contains whitespace
-  }
+  // if (!query.trim()) {
+  //   return; // Exit early if query is empty or only contains whitespace
+  // }
 
   let row = document.createElement("div");
   row.classList.add("row");
@@ -86,6 +86,66 @@ function generateCourses(courses, query) {
     }
     container.appendChild(row);
   }
+}
+
+
+function generateFlowcharts(myFlowcharts) {
+  // Find the element “col” in HTML
+  var CardFlowchart = document.getElementById("col");
+
+  //var checkboxes = [];
+  var cards = [];
+
+  // Read every flowchart from the array
+  for (let i = 0; i < myFlowcharts.majors.length; i++) {
+      let major = myFlowcharts.flowcharts[i].major;
+      // let year = myFlowcharts.flowcharts[i].year;
+      let url = myFlowcharts.flowcharts[i].url;
+
+
+      // let checkbox = "checkbox" + i.toString();
+      let card = "card" + i.toString();
+
+
+      let AddCardFlowchart = document.createElement("div");
+      // add class = “col” to new division for Bootstrap
+      AddCardFlowchart.classList.add("col");
+      // create Bootstrap card
+      AddCardFlowchart.innerHTML = `
+              <div id=${card} class="card shadow-sm">
+
+              <img src=${url} class="card-img-top" alt="..."></img>
+              <div class="card-body">
+              <p class="card-text"> <strong>${major}</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              </div>
+              <small class="text-body-secondary">9 mins</small>
+              </div>
+              </div>
+              </div>
+              `;
+      // append new division
+      CardFlowchart.appendChild(AddCardFlowchart);
+
+      // let cbox = document.getElementById(checkbox);
+      // checkboxes.push(cbox);
+      let ccard = document.getElementById(card);
+      cards.push(ccard);
+
+  }
+
+  // checkboxes.forEach((checkboxParam, index) => {
+  //     console.log(index);
+  //     checkboxParam.addEventListener('change', () => {
+  //         if (checkboxParam.checked) {
+  //             cards[index].style.display = 'block'; // Show the card
+  //         } else {
+  //             cards[index].style.display = 'none'; // Hide the card
+  //         }
+  //     });
+  // });
 }
 
 
