@@ -3,7 +3,7 @@ let courseList;
 
 async function fetchCourses() {
   try {
-    const response = await fetch("./courses.json");
+    const response = await fetch("./data.json");
     if (!response.ok) {
       throw new Error('Failed to fetch courses');
     }
@@ -28,6 +28,46 @@ window.onload = function () {
 });
 };
 
+function generateCourses(courses, query) {
+  const container = document.getElementById("classescontainer");
+  container.innerHTML = '';
+
+  courses.forEach(major => {
+    major.courses.forEach(course => {
+      if (course.courseCode.includes(query.toUpperCase())) {
+        let column = document.createElement("div");
+        column.classList.add("col");
+        column.classList.add("d-flex");
+        column.classList.add("flex-column");
+        column.style.height = '150px';
+  
+        const courseContainer = document.createElement("div");
+        courseContainer.classList.add("course-container");
+        courseContainer.classList.add("d-flex");
+        courseContainer.classList.add("flex-column");
+        courseContainer.classList.add("h-100");
+        courseContainer.classList.add("justify-content-center");
+        courseContainer.classList.add("align-items-center");
+        courseContainer.style.cursor = 'pointer';
+  
+        courseContainer.addEventListener("click", function () {
+          window.location.href = "course-details.html?code=" + encodeURIComponent(course.courseCode) + "&description=" + encodeURIComponent(course.courseTitle);
+        });
+  
+        courseContainer.innerHTML = `
+          <div class="text-center">
+              <h3 class="fs-2 text-body-emphasis text-center">${course.courseCode}</h3>
+              <p>${course.courseTitle}</p>
+          </div>`;
+  
+        column.appendChild(courseContainer);
+        container.appendChild(column);
+      }
+    });
+  });
+}
+
+/*
 function generateCourses(courses, query) {
   const container = document.getElementById("classescontainer");
   container.innerHTML = '';
@@ -86,67 +126,9 @@ function generateCourses(courses, query) {
     }
     container.appendChild(row);
   }
-}
+} */
 
 
-function generateFlowcharts(myFlowcharts) {
-  // Find the element “col” in HTML
-  var CardFlowchart = document.getElementById("col");
-
-  //var checkboxes = [];
-  var cards = [];
-
-  // Read every flowchart from the array
-  for (let i = 0; i < myFlowcharts.majors.length; i++) {
-      let major = myFlowcharts.flowcharts[i].major;
-      // let year = myFlowcharts.flowcharts[i].year;
-      let url = myFlowcharts.flowcharts[i].url;
-
-
-      // let checkbox = "checkbox" + i.toString();
-      let card = "card" + i.toString();
-
-
-      let AddCardFlowchart = document.createElement("div");
-      // add class = “col” to new division for Bootstrap
-      AddCardFlowchart.classList.add("col");
-      // create Bootstrap card
-      AddCardFlowchart.innerHTML = `
-              <div id=${card} class="card shadow-sm">
-
-              <img src=${url} class="card-img-top" alt="..."></img>
-              <div class="card-body">
-              <p class="card-text"> <strong>${major}</strong></p>
-              <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-              </div>
-              <small class="text-body-secondary">9 mins</small>
-              </div>
-              </div>
-              </div>
-              `;
-      // append new division
-      CardFlowchart.appendChild(AddCardFlowchart);
-
-      // let cbox = document.getElementById(checkbox);
-      // checkboxes.push(cbox);
-      let ccard = document.getElementById(card);
-      cards.push(ccard);
-
-  }
-
-  // checkboxes.forEach((checkboxParam, index) => {
-  //     console.log(index);
-  //     checkboxParam.addEventListener('change', () => {
-  //         if (checkboxParam.checked) {
-  //             cards[index].style.display = 'block'; // Show the card
-  //         } else {
-  //             cards[index].style.display = 'none'; // Hide the card
-  //         }
-  //     });
-  // });
-}
 
 
 
