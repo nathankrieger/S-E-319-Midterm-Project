@@ -388,3 +388,17 @@ p {
 .course-container:hover {
     background-color: rgba(61, 72, 77, 0.7); /* Change the background color on hover */
 }
+
+.user-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    border-right: 1px solid grey;
+}
+
+.review-data {
+    position: absolute;
+    width: 830px;
+    margin-left: 320px;
+}
