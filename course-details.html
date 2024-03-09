@@ -25,72 +25,8 @@
           justify-content: center;
           align-items: center;
       }
-            * {
-        box-sizing: border-box;
-      }
-
-      .heading {
-        font-size: 25px;
-        margin-right: 25px;
-      }
-
-      .fa {
-        font-size: 25px;
-      }
-
-      .checked {
-        color: orange;
-      }
-
-      /* Three column layout */
-      .side {
-        float: left;
-        width: 15%;
-        margin-top: 10px;
-      }
-
-      .middle {
-        float: left;
-        width: 70%;
-        margin-top: 10px;
-      }
-
-      /* Place text to the right */
-      .right {
-        text-align: right;
-      }
-
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
-      /* The bar container */
-      .bar-container {
-        width: 100%;
-        background-color: #f1f1f1;
-        text-align: center;
-        color: white;
-      }
-
-      /* Individual bars */
-      .bar-5 {width: 60%; height: 18px; background-color: gray;}
-      .bar-4 {width: 30%; height: 18px; background-color: gray;}
-      .bar-3 {width: 10%; height: 18px; background-color: gray;}
-      .bar-2 {width: 4%; height: 18px; background-color: gray;}
-      .bar-1 {width: 15%; height: 18px; background-color: gray;}
-
-      /* Responsive layout - make the columns stack on top of each other instead of next to each other */
-      @media (max-width: 400px) {
-        .side, .middle {
-          width: 100%;
-        }
-        /* Hide the right column on small screens */
-        .right {
-          display: none;
-        }
+      footer {
+        position: fixed;
       }
     </style>
 </head>
@@ -186,38 +122,20 @@
               </div>
             </div>
           </div>
-
-
-          <h1 class="display-5 fw-bold">Reviews</h1>
-          <div class="row g-4 py-5">
-            <div class="col d-flex flex-column position-relative course-container" style="height: 150px;">
-              <div class="user-info">
-                <h4 style="padding: 10px">test_user_1</h4>
-                <img id="star1" class="star" src="star.svg"/>
-                <img id="star2" class="star" src="star.svg"/>
-                <img id="star3" class="star" src="star.svg"/>
-                <img id="star4" class="star" src="star.svg" style="visibility: hidden;"/>
-                <img id="star5" class="star" src="star.svg" style="visibility: hidden;"/>
+      
+          <!-- <div class="row align-items-md-stretch">
+            <div class="col-md-6">
+              <div class="h-300 p-5 text-bg-dark rounded-3">
+                <h2>Change the background</h2>
+                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
               </div>
-              <div class="review-data">
-                <p>This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review.</p>
+            </div> -->
+            <!-- <div class="col-md-6">
+              <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                <h2>Add borders</h2>
+                <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
               </div>
-            </div>
-          </div>
-          <div class="row g-4 py-5">
-            <div class="col d-flex flex-column position-relative course-container" style="height: 150px;">
-              <div class="user-info">
-                <h4 style="padding: 10px">test_user_2</h4>
-                <img id="star1" class="star" src="star.svg"/>
-                <img id="star2" class="star" src="star.svg"/>
-                <img id="star3" class="star" src="star.svg"/>
-                <img id="star4" class="star" src="star.svg"/>
-                <img id="star5" class="star" src="star.svg" style="visibility: hidden;"/>
-              </div>
-              <div class="review-data">
-                <p>This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review. This is a test review.</p>
-              </div>
-            </div>
+            </div> -->
           </div>
 
       
