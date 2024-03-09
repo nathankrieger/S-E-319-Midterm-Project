@@ -1,0 +1,1787 @@
+[
+    {
+        "major": "Computer Engineering (CPRE)",
+        "flowchart": "./images/cpre_flowchart.png",
+        "loc": "/azcourses/cpr_e/",
+        "courses": [
+            {
+                "courseCode": "CPRE 1310",
+                "courseTitle": "Introduction to Computer Security Literacy",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 1610",
+                "courseTitle": "Programming Practice for Engineers",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 1660",
+                "courseTitle": "Professional Programs Orientation",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 1840",
+                "courseTitle": "Computer Engineering Learning Community",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 1850",
+                "courseTitle": "Introduction to Computer Engineering and Problem Solving I",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 1860",
+                "courseTitle": "Introduction to Computer Engineering and Problem Solving II",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2300",
+                "courseTitle": "Cyber Security Fundamentals",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2310",
+                "courseTitle": "Cyber Security Concepts and Tools",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2320",
+                "courseTitle": "Professional and Ethical Issues in Electrical and Computer Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2340",
+                "courseTitle": "Legal, Professional, and Ethical Issues in Cyber Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2610",
+                "courseTitle": "Transfer Orientation",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2810",
+                "courseTitle": "Digital Logic",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2870X",
+                "courseTitle": "Cyber-Physical System Fundamentals",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2880",
+                "courseTitle": "Embedded Systems I",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 2940",
+                "courseTitle": "Program Discovery",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3080",
+                "courseTitle": "Operating Systems",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3100",
+                "courseTitle": "Theoretical Foundations of Computer Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3290",
+                "courseTitle": "Software Project Management",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3300",
+                "courseTitle": "Integrated Electronics",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3310",
+                "courseTitle": "Application of Cryptographic Concepts to Cyber Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3320",
+                "courseTitle": "Cyber Defense Competition",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3390",
+                "courseTitle": "Software Architecture and Design",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3810",
+                "courseTitle": "Computer Organization and Assembly Level Programming",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3880",
+                "courseTitle": "Embedded Systems II",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 3940",
+                "courseTitle": "Program Exploration",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4120",
+                "courseTitle": "Formal Methods in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4140",
+                "courseTitle": "Introduction to Software Systems for Big Data Analytics",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4160",
+                "courseTitle": "Software Evolution and Maintenance",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4180",
+                "courseTitle": "High Speed System Engineering Measurement and Testing",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4190",
+                "courseTitle": "Software Tools for Large Scale Data Analysis",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4210",
+                "courseTitle": "Software Analysis and Verification for Safety and Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4240",
+                "courseTitle": "Introduction to High Performance Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4250",
+                "courseTitle": "High Performance Computing for Scientific and Engineering Applications",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4260",
+                "courseTitle": "Introduction to Parallel Algorithms and Programming",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4300",
+                "courseTitle": "Network Protocols and Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4310",
+                "courseTitle": "Basics of Information System Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4350",
+                "courseTitle": "Analog VLSI Circuit Design",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4400",
+                "courseTitle": "Operating System Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4500",
+                "courseTitle": "Distributed Systems and Middleware",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4540",
+                "courseTitle": "Distributed Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4580",
+                "courseTitle": "Real  Time Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4590X",
+                "courseTitle": "Security and Privacy in Cloud Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4650",
+                "courseTitle": "Digital VLSI Design",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4800",
+                "courseTitle": "Graphics Processing and Architecture",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4870",
+                "courseTitle": "Hardware Design for Machine Learning",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4880",
+                "courseTitle": "Embedded Systems Design",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4890",
+                "courseTitle": "Computer Networking and Data Communications",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4900",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4900H",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4910",
+                "courseTitle": "Senior Design Project I and Professionalism",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4920",
+                "courseTitle": "Senior Design Project II",
+                "credits": "2",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 4940",
+                "courseTitle": "Portfolio Assessment",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5110",
+                "courseTitle": "Design and Analysis of Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5130",
+                "courseTitle": "Program Analysis",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5220",
+                "courseTitle": "Cognitive Radio Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5250",
+                "courseTitle": "Numerical Analysis of High Performance Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5260",
+                "courseTitle": "Introduction to Parallel Algorithms and Programming",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5270",
+                "courseTitle": "High-Performance Deep Learning",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5280",
+                "courseTitle": "Probabilistic Methods in Computer Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5290",
+                "courseTitle": "Data Analytics in Electrical and Computer Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5300",
+                "courseTitle": "Network Protocols and Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5310",
+                "courseTitle": "Information System Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5320",
+                "courseTitle": "Information Warfare",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5330",
+                "courseTitle": "Cryptography",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5340",
+                "courseTitle": "Legal and Ethical Issues in Cyber Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5350",
+                "courseTitle": "Steganography and Digital Image Forensics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5360",
+                "courseTitle": "Computer and Network Forensics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5370",
+                "courseTitle": "Wireless Network Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5380",
+                "courseTitle": "Reverse Engineering and Security Testing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5390",
+                "courseTitle": "Cyber Physical System Security for the Smart Grid",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5410",
+                "courseTitle": "High-Performance Communication Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5420",
+                "courseTitle": "Optical Communication Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5430",
+                "courseTitle": "Wireless Network Architecture",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5440",
+                "courseTitle": "Fundamentals of Bioinformatics",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5450",
+                "courseTitle": "Fault-Tolerant Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5460",
+                "courseTitle": "Wireless and Sensor Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5470",
+                "courseTitle": "Resource Allocation in Communication Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5480",
+                "courseTitle": "Cyber-Physical Systems Networking",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5500",
+                "courseTitle": "Distributed Systems and Middleware",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5540",
+                "courseTitle": "Distributed Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5560",
+                "courseTitle": "Scalable Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5570",
+                "courseTitle": "Computer Graphics and Geometric Modeling",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5580",
+                "courseTitle": "Real Time Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5590",
+                "courseTitle": "Security and Privacy in Cloud Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5600",
+                "courseTitle": "Data-Driven Security and Privacy",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5620",
+                "courseTitle": "Secure Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5630",
+                "courseTitle": "Advanced Data Storage Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5660",
+                "courseTitle": "Physical Design of VLSI Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5670",
+                "courseTitle": "Bioinformatics Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5690",
+                "courseTitle": "Structural Bioinformatics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5700",
+                "courseTitle": "Systems Biology",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5750",
+                "courseTitle": "Computational Perception",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5800",
+                "courseTitle": "Graphics Processing and Architecture",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5810",
+                "courseTitle": "Computer Systems Architecture",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5820",
+                "courseTitle": "Computer Systems Performance",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5830",
+                "courseTitle": "Reconfigurable Computing Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5840",
+                "courseTitle": "Models and Techniques in Embedded Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5850",
+                "courseTitle": "Developmental Robotics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5860",
+                "courseTitle": "Pervasive Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5870",
+                "courseTitle": "Hardware Design for Machine Learning",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5880",
+                "courseTitle": "Embedded Computer Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5900",
+                "courseTitle": "Special Topics",
+                "credits": "1-6",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5920",
+                "courseTitle": "Seminar in Computer Engineering",
+                "credits": "1-4",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5950",
+                "courseTitle": "Independent Study",
+                "credits": "1-3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5980",
+                "courseTitle": "Electrical and Computer Engineering Learning Community Seminar",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 5990",
+                "courseTitle": "Creative Component",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6260",
+                "courseTitle": "Parallel Algorithms for Scientific Applications",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6310",
+                "courseTitle": "Cyber Security Operations Practicum",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6320",
+                "courseTitle": "Cyber Security Capstone Design",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6490",
+                "courseTitle": "Advanced Topics in Computational Biology",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6810",
+                "courseTitle": "Advanced Topics in Computer Architecture",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6970",
+                "courseTitle": "Engineering Internship",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "CPRE 6990",
+                "courseTitle": "Research",
+                "credits": "1-30",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "major": "Computer Science (COMS)",
+        "flowchart": "./images/coms_flowchart.png",
+        "loc": "/azcourses/com_s/",
+        "courses": [
+            {
+                "courseCode": "COMS 1010",
+                "courseTitle": "Orientation",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1030",
+                "courseTitle": "Computer Literacy and Applications",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1040",
+                "courseTitle": "Brief Introduction to Computer Programming for Non-Majors",
+                "credits": "2",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1050A",
+                "courseTitle": "Short Course in Computer Programming",
+                "credits": "2",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1050B",
+                "courseTitle": "Short Course in Computer Programming",
+                "credits": "2",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1060",
+                "courseTitle": "Introduction to Web Programming",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1070",
+                "courseTitle": "Windows Application Programming",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1130",
+                "courseTitle": "Introduction to Spreadsheets and Databases",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1270",
+                "courseTitle": "Introduction to Computer Programming",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 1920",
+                "courseTitle": "Explorations in Computing Research I",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2030",
+                "courseTitle": "Careers in Computer Science",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2070",
+                "courseTitle": "Fundamentals of Computer Programming",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2270",
+                "courseTitle": "Object-oriented Programming",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2280",
+                "courseTitle": "Introduction to Data Structures",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2300",
+                "courseTitle": "Discrete Computational Structures",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2520",
+                "courseTitle": "Linux Operating System Essentials",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2900",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2900H",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 2950",
+                "courseTitle": "Programming-Based Problem Solving Practices",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3090",
+                "courseTitle": "Software Development Practices",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3110",
+                "courseTitle": "Introduction to the Design and Analysis of Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3190",
+                "courseTitle": "Construction of User Interfaces",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3210",
+                "courseTitle": "Introduction to Computer Architecture and Machine-Level Programming",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3260",
+                "courseTitle": "C for Programmers",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3270",
+                "courseTitle": "Advanced Programming Techniques",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3310",
+                "courseTitle": "Theory of Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3360",
+                "courseTitle": "Introduction to Computer Graphics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3420",
+                "courseTitle": "Principles of Programming Languages",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3500",
+                "courseTitle": "Number Theory",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3520",
+                "courseTitle": "Introduction to Operating Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3620",
+                "courseTitle": "Object-Oriented Analysis and Design",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3630",
+                "courseTitle": "Introduction to Database Management Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3980",
+                "courseTitle": "Cooperative Education",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 3990X",
+                "courseTitle": "Special Topics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4010",
+                "courseTitle": "Bioinformatics of Sequences",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4020A",
+                "courseTitle": "Computer Science Senior Project",
+                "credits": "2-3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4020B",
+                "courseTitle": "Computer Science Senior Project",
+                "credits": "2-3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4020C",
+                "courseTitle": "Computer Science Senior Project",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4060",
+                "courseTitle": "Bioinformatics of OMICS",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4070",
+                "courseTitle": "Applied Formal Methods",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4090",
+                "courseTitle": "Software Requirements Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4100",
+                "courseTitle": "Distributed Development of Software",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4120",
+                "courseTitle": "Formal Methods in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4130",
+                "courseTitle": "Program Analysis",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4140",
+                "courseTitle": "Gerontechnology in Smart Home Environments",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4150",
+                "courseTitle": "Software System Safety",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4170",
+                "courseTitle": "Software Testing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4180",
+                "courseTitle": "Introduction to Computational Geometry",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4190X",
+                "courseTitle": "Trustworthy Healthcare Software",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4210",
+                "courseTitle": "Logic for Mathematics and Computer Science",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4240",
+                "courseTitle": "Introduction to High Performance Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4250",
+                "courseTitle": "High Performance Computing for Scientific and Engineering Applications",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4260",
+                "courseTitle": "Introduction to Parallel Algorithms and Programming",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4300",
+                "courseTitle": "Concurrent Programming in Practice",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4330",
+                "courseTitle": "Molecular Programming of Nanoscale Devices and Processes",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4340",
+                "courseTitle": "Quantum Information and Complexity",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4350",
+                "courseTitle": "Algorithms for Large Data Sets",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4370",
+                "courseTitle": "Computer Game and Media Programming",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4400",
+                "courseTitle": "Principles and Practice of Compiling",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4410",
+                "courseTitle": "Programming Languages",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4530",
+                "courseTitle": "Privacy Preserving Algorithms and Data Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4540",
+                "courseTitle": "Distributed Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4550",
+                "courseTitle": "Simulation",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4590X",
+                "courseTitle": "Security and Privacy in Cloud Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4610",
+                "courseTitle": "Principles and Internals of Database Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4630X",
+                "courseTitle": "Healthcare Data Privacy, Security and Confidentiality",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4640X",
+                "courseTitle": "AI for Healthcare",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4720",
+                "courseTitle": "Principles of Artificial Intelligence",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4740",
+                "courseTitle": "Introduction to Machine Learning",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4760",
+                "courseTitle": "Motion Planning for Robotics and Autonomous Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4770",
+                "courseTitle": "Foundations of Robotics and Computer Vision",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4810",
+                "courseTitle": "Numerical Methods for Differential Equations",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4870",
+                "courseTitle": "Introduction to Network Programming and Cloud Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4880",
+                "courseTitle": "Computer Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4900",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4900H",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 4990X",
+                "courseTitle": "Special Topics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5010X",
+                "courseTitle": "Computational Methods I",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5040X",
+                "courseTitle": "Computational Methods II",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5070",
+                "courseTitle": "Applied Formal Methods",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5090",
+                "courseTitle": "Software Requirements Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5100",
+                "courseTitle": "Distributed Development of Software",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5110",
+                "courseTitle": "Design and Analysis of Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5120",
+                "courseTitle": "Formal Methods in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5130",
+                "courseTitle": "Program Analysis",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5140",
+                "courseTitle": "Gerontechnology in Smart Home Environments",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5150",
+                "courseTitle": "Software System Safety",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5160",
+                "courseTitle": "Artificial Intelligence in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5180",
+                "courseTitle": "Introduction to Computational Geometry",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5190X",
+                "courseTitle": "Trustworthy Healthcare Software",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5250",
+                "courseTitle": "Numerical Analysis of High Performance Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5260",
+                "courseTitle": "Introduction to Parallel Algorithms and Programming",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5270",
+                "courseTitle": "High-Performance Deep Learning",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5310",
+                "courseTitle": "Theory of Computation",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5330",
+                "courseTitle": "Molecular Programming of Nanoscale Devices and Processes",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5340",
+                "courseTitle": "Quantum Information and Complexity",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5350",
+                "courseTitle": "Algorithms for Large Data Sets",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5400",
+                "courseTitle": "Principles and Practice of Compiling",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5410",
+                "courseTitle": "Programming Languages",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5440",
+                "courseTitle": "Fundamentals of Bioinformatics",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5510",
+                "courseTitle": "Genomic Data Science",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5520",
+                "courseTitle": "Principles of Operating Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5530X",
+                "courseTitle": "Privacy Preserving Algorithms and Data Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5540",
+                "courseTitle": "Distributed Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5550",
+                "courseTitle": "Simulation",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5570",
+                "courseTitle": "Computer Graphics and Geometric Modeling",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5590",
+                "courseTitle": "Security and Privacy in Cloud Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5600",
+                "courseTitle": "Data-Driven Security and Privacy",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5610",
+                "courseTitle": "Database Design, Management, and Research",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5630X",
+                "courseTitle": "Healthcare Data Privacy, Security and Confidentiality",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5640X",
+                "courseTitle": "AI for Healthcare",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5670",
+                "courseTitle": "Bioinformatics Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5680",
+                "courseTitle": "Statistical Bioinformatics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5690",
+                "courseTitle": "Structural Bioinformatics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5700",
+                "courseTitle": "Systems Biology",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5710X",
+                "courseTitle": "Responsible AI",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5720",
+                "courseTitle": "Principles of Artificial Intelligence",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5730",
+                "courseTitle": "Machine Learning",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5740",
+                "courseTitle": "Intelligent Multiagent Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5750",
+                "courseTitle": "Computational Perception",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5760",
+                "courseTitle": "Motion Planning for Robotics and Autonomous Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5770",
+                "courseTitle": "Foundations of Robotics and Computer Vision",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5780",
+                "courseTitle": "Optimization for Machine Learning",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5790",
+                "courseTitle": "Natural Language Processing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5810",
+                "courseTitle": "Computer Systems Architecture",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5830",
+                "courseTitle": "Reconfigurable Computing Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5870",
+                "courseTitle": "Introduction to Network Programming and Cloud Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5880",
+                "courseTitle": "Computer Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5900",
+                "courseTitle": "Special Topics",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5920",
+                "courseTitle": "Graduate Studies in Computer Science",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5930X",
+                "courseTitle": "Experiential Learning in Responsible AI",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5980",
+                "courseTitle": "Graduate Internship",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 5990",
+                "courseTitle": "Creative Component",
+                "credits": "1-3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6100",
+                "courseTitle": "Seminar",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6110",
+                "courseTitle": "Advanced Topics in Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6120",
+                "courseTitle": "Distributed Algorithms",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6250",
+                "courseTitle": "Advanced Topics in High Performance Computing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6260",
+                "courseTitle": "Parallel Algorithms for Scientific Applications",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6310",
+                "courseTitle": "Advanced Topics in Computational Complexity",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6330",
+                "courseTitle": "Advanced Topics in Computational Randomness",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6340",
+                "courseTitle": "Theory of Games, Knowledge and Uncertainty",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6410",
+                "courseTitle": "Advanced Topics in Programming Language Semantics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6490",
+                "courseTitle": "Advanced Topics in Computational Biology",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6520",
+                "courseTitle": "Advanced Topics in Distributed Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6560",
+                "courseTitle": "Advanced Topics in Verification",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6570",
+                "courseTitle": "Advanced Topics in Computer Graphics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6610",
+                "courseTitle": "Advanced Topics in Database Systems",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6650A",
+                "courseTitle": "Advanced Topics in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6650B",
+                "courseTitle": "Advanced Topics in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6710X",
+                "courseTitle": "Responsible AI",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6720",
+                "courseTitle": "Advanced Topics in Artificial Intelligence",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6730",
+                "courseTitle": "Advanced Topics in Machine Learning",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6760X",
+                "courseTitle": "Advanced Topics in Autonomous Systems and Robotics",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6810",
+                "courseTitle": "Advanced Topics in Computer Architecture",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6880AX",
+                "courseTitle": "Advanced Topics in Computer Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6880BX",
+                "courseTitle": "Advanced Topics in Computer Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6880CX",
+                "courseTitle": "Advanced Topics in Computer Networks",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "COMS 6990",
+                "courseTitle": "Research",
+                "credits": "1-30",
+                "img": ""
+            }
+        ]
+    },
+    {
+        "major": "Software Engineering (SE)",
+        "flowchart": "./images/se_flowchart.png",
+        "loc": "/azcourses/s_e/",
+        "courses": [
+            {
+                "courseCode": "SE 1010",
+                "courseTitle": "Software Engineering Orientation",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 1660",
+                "courseTitle": "Careers in Software Engineering",
+                "credits": "Required",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 1850",
+                "courseTitle": "Problem Solving in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 1860",
+                "courseTitle": "Problem Solving in Software Engineering II",
+                "credits": "1",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3090",
+                "courseTitle": "Software Development Practices",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3170",
+                "courseTitle": "Introduction to Software Testing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3190",
+                "courseTitle": "Construction of User Interfaces",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3290",
+                "courseTitle": "Software Project Management",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3390",
+                "courseTitle": "Software Architecture and Design",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3420",
+                "courseTitle": "Principles of Programming Languages",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 3620",
+                "courseTitle": "Object-Oriented Analysis and Design",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4090",
+                "courseTitle": "Software Requirements Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4120",
+                "courseTitle": "Formal Methods in Software Engineering",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4130",
+                "courseTitle": "Program Analysis",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4160",
+                "courseTitle": "Software Evolution and Maintenance",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4170",
+                "courseTitle": "Software Testing",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4190",
+                "courseTitle": "Software Tools for Large Scale Data Analysis",
+                "credits": "4",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4210",
+                "courseTitle": "Software Analysis and Verification for Safety and Security",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4220",
+                "courseTitle": "Cloud Computing - Software Development",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4400",
+                "courseTitle": "Principles and Practice of Compiling",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4900",
+                "courseTitle": "Independent Study",
+                "credits": "1-30",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4910",
+                "courseTitle": "Senior Design Project I and Professionalism",
+                "credits": "3",
+                "img": ""
+            },
+            {
+                "courseCode": "SE 4920",
+                "courseTitle": "Senior Design Project II",
+                "credits": "2",
+                "img": ""
+            }
+        ]
+    }
+]
