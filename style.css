@@ -401,4 +401,11 @@ p {
     position: absolute;
     width: 830px;
     margin-left: 320px;
+    text-align: left;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
 }
