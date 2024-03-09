@@ -40,6 +40,7 @@ function generateCourses(courses, query) {
         column.classList.add("d-flex");
         column.classList.add("flex-column");
         column.style.height = '150px';
+        column.style.padding = '15px';
   
         const courseContainer = document.createElement("div");
         courseContainer.classList.add("course-container");
