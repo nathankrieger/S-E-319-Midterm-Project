@@ -100,6 +100,16 @@ function generateCourses(courses) {
                 row.classList.add("py-3");
             }
         }
+
+        if (row.children.length == 1) {
+          let column = document.createElement("div");
+          column.classList.add("col");
+          column.classList.add("d-flex");
+          column.classList.add("flex-column");
+          column.style.height = '200px';
+          row.appendChild(column);
+          container.append(row);
+        }
     }
   }
 }
