@@ -19,31 +19,31 @@
                 "courseCode": "CPRE 166",
                 "courseTitle": "Professional Programs Orientation",
                 "credits": "Required",
-                "img": ""
+                "img": "./images/CPRE/166.jpg"
             },
             {
                 "courseCode": "CPRE 185",
                 "courseTitle": "Introduction to Computer Engineering and Problem Solving I",
                 "credits": "3",
-                "img": ""
+                "img": "./images/CPRE/185.jpg"
             },
             {
                 "courseCode": "CPRE 232",
                 "courseTitle": "Professional and Ethical Issues in Electrical and Computer Engineering",
                 "credits": "3",
-                "img": ""
+                "img": "./images/CPRE/232.jpg"
             },
             {
                 "courseCode": "CPRE 281",
                 "courseTitle": "Digital Logic",
                 "credits": "4",
-                "img": ""
+                "img": "./images/CPRE/281.jpg"
             },
             {
                 "courseCode": "CPRE 288",
                 "courseTitle": "Embedded Systems I",
                 "credits": "4",
-                "img": ""
+                "img": "./images/CPRE/288.jpg"
             },
             {
                 "courseCode": "CPRE 308",
@@ -55,31 +55,31 @@
                 "courseCode": "CPRE 310",
                 "courseTitle": "Theoretical Foundations of Computer Engineering",
                 "credits": "3",
-                "img": ""
+                "img": "./images/CPRE/310.jpg"
             },
             {
                 "courseCode": "CPRE 381",
                 "courseTitle": "Computer Organization and Assembly Level Programming",
                 "credits": "4",
-                "img": ""
+                "img": "./images/CPRE/381.jpg"
             },
             {
                 "courseCode": "CPRE 491",
                 "courseTitle": "Senior Design Project I and Professionalism",
                 "credits": "3",
-                "img": ""
+                "img": "./images/CPRE/491.jpg"
             },
             {
                 "courseCode": "CPRE 4920",
                 "courseTitle": "Senior Design Project II",
                 "credits": "2",
-                "img": ""
+                "img": "./images/CPRE/491.jpg"
             },
             {
                 "courseCode": "CPRE 494",
                 "courseTitle": "Portfolio Assessment",
                 "credits": "Required",
-                "img": ""
+                "img": "./images/CPRE/494.jpg"
             }
         ]
     },
@@ -103,91 +103,91 @@
                 "courseCode": "COMS 101",
                 "courseTitle": "Orientation",
                 "credits": "Required",
-                "img": ""
+                "img": "./images/COMS/101.jpg"
             },
             {
                 "courseCode": "COMS 127",
                 "courseTitle": "Introduction to Computer Programming",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/127.jpg"
             },
             {
                 "courseCode": "COMS 227",
                 "courseTitle": "Object-oriented Programming",
                 "credits": "4",
-                "img": ""
+                "img": "./images/COMS/227.jpg"
             },
             {
                 "courseCode": "COMS 228",
                 "courseTitle": "Introduction to Data Structures",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/228.jpg"
             },
             {
                 "courseCode": "COMS 230",
                 "courseTitle": "Discrete Computational Structures",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/230.jpg"
             },
             {
                 "courseCode": "COMS 309",
                 "courseTitle": "Software Development Practices",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/309.jpg"
             },
             {
                 "courseCode": "COMS 311",
                 "courseTitle": "Introduction to the Design and Analysis of Algorithms",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/311.jpg"
             },
             {
                 "courseCode": "COMS 321",
                 "courseTitle": "Introduction to Computer Architecture and Machine-Level Programming",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/321.jpg"
             },
             {
                 "courseCode": "COMS 327",
                 "courseTitle": "Advanced Programming Techniques",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/327.jpg"
             },
             {
                 "courseCode": "COMS 331",
                 "courseTitle": "Theory of Computing",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/331.jpg"
             },
             {
                 "courseCode": "COMS 342",
                 "courseTitle": "Principles of Programming Languages",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/342.jpg"
             },
             {
                 "courseCode": "COMS 352",
                 "courseTitle": "Introduction to Operating Systems",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/352.jpg"
             },
             {
                 "courseCode": "COMS 402A",
                 "courseTitle": "Computer Science Senior Project",
                 "credits": "2-3",
-                "img": ""
+                "img": "./images/COMS/402.jpg"
             },
             {
                 "courseCode": "COMS 402B",
                 "courseTitle": "Computer Science Senior Project",
                 "credits": "2-3",
-                "img": ""
+                "img": "./images/COMS/402.jpg"
             },
             {
                 "courseCode": "COMS 402C",
                 "courseTitle": "Computer Science Senior Project",
                 "credits": "3",
-                "img": ""
+                "img": "./images/COMS/402.jpg"
             }
         ]
     },
@@ -211,55 +211,55 @@
                 "courseCode": "SE 101",
                 "courseTitle": "Software Engineering Orientation",
                 "credits": "Required",
-                "img": ""
+                "img": "./images/SE/101.jpg"
             },
             {
                 "courseCode": "SE 166",
                 "courseTitle": "Careers in Software Engineering",
                 "credits": "Required",
-                "img": ""
+                "img": "./images/SE/166.jpg"
             },
             {
                 "courseCode": "SE 185",
                 "courseTitle": "Problem Solving in Software Engineering",
                 "credits": "3",
-                "img": ""
+                "img": "./images/SE/185.jpg"
             },
             {
                 "courseCode": "SE 309",
                 "courseTitle": "Software Development Practices",
                 "credits": "3",
-                "img": ""
+                "img": "./images/SE/309.jpg"
             },
             {
                 "courseCode": "SE 317",
                 "courseTitle": "Introduction to Software Testing",
                 "credits": "3",
-                "img": ""
+                "img": "./images/SE/317.jpg"
             },
             {
                 "courseCode": "SE 319",
                 "courseTitle": "Construction of User Interfaces",
                 "credits": "3",
-                "img": ""
+                "img": "./images/SE/319.jpg"
             },
             {
                 "courseCode": "SE 339",
                 "courseTitle": "Software Architecture and Design",
                 "credits": "3",
-                "img": ""
+                "img": "./images/SE/339.jpg"
             },
             {
                 "courseCode": "SE 491",
                 "courseTitle": "Senior Design Project I and Professionalism",
                 "credits": "3",
-                "img": ""
+                "img": "./images/SE/491.jpg"
             },
             {
                 "courseCode": "SE 492",
                 "courseTitle": "Senior Design Project II",
                 "credits": "2",
-                "img": ""
+                "img": "./images/SE/491.jpg"
             }
         ]
     }
