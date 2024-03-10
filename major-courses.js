@@ -67,7 +67,7 @@ function generateCourses(courses) {
             backgroundImage.style.backgroundImage = `url('${img}')`;
             backgroundImage.style.backgroundSize = 'cover';
             backgroundImage.style.backgroundPosition = 'center';
-            backgroundImage.style.opacity = '0.5';
+            backgroundImage.style.opacity = '0.3';
             backgroundImage.style.width = '100%';
             backgroundImage.style.height = '100%';
             backgroundImage.style.position = 'absolute';
