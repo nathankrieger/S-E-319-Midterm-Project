@@ -2,13 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
-    const description = urlParams.get('description');
+    const title = urlParams.get('title');
+    const credits = urlParams.get('credits');
 
     console.log(code);
-    console.log(description);
+    console.log(title);
 
     // Populate course details on the page
-    document.getElementById("course-title").innerText = code;
-    document.getElementById("course-description").innerText = description;
+    document.getElementById("course-code").innerText = code;
+    document.getElementById("course-title").innerText = title;
+    document.getElementById("course-credits").innerHTML = "<strong>Credits: "+credits+"</strong>"
     // Populate additional details if needed
 });
