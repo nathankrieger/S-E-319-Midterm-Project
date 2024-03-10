@@ -99,7 +99,7 @@ function generateMajors(majors) {
     column.classList.add("col");
     column.classList.add("d-flex");
     column.classList.add("flex-column");
-    column.style.height = '150px';
+    column.style.height = '200px';
     column.style.padding = '15px';
 
     let majorContainer = document.createElement("div");
@@ -137,6 +137,8 @@ function generateMajors(majors) {
     textContainer.style.zIndex = '1'; // Place text above the background image
     textContainer.innerHTML = `
         <h3 class="fs-2 text-body-emphasis text-center">${major.major}</h3>
+        <p><strong>${major["major-info"]["college"]}</strong></p>
+        <p><strong>Abbr:</strong> ${major["major-info"]["abbr"]}</p>
     `;
 
     majorContainer.appendChild(backgroundImage);
