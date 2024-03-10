@@ -28,6 +28,8 @@ function generateFlowcharts(myFlowcharts) {
     for (let i = 0; i < myFlowcharts.length; i++) {
         let major = myFlowcharts[i].major;
         let flowchart = myFlowcharts[i].flowchart;
+        let credits = flowchart.credits;
+        let year = flowchart.year;
 
         let AddCardFlowchart = document.createElement("div");
         // add class = “col” to new division for Bootstrap
@@ -35,9 +37,11 @@ function generateFlowcharts(myFlowcharts) {
         // create Bootstrap card
         AddCardFlowchart.innerHTML = `
             <div class="card shadow-sm">
-                <img src=${flowchart} class="card-img-top" alt="Flowchart"></img>
+                <img src=${flowchart.img} class="card-img-top" alt="Flowchart"></img>
                 <div class="card-body">
                     <p class="card-text"><strong>${major}</strong></p>
+                    <p class="card-text">${credits} total credits</p>
+                    <p class="card-text">From: ${year}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                             <button type="button" class="btn btn-sm btn-outline-secondary view-btn">View</button>
