@@ -56,7 +56,7 @@ function generateCourses(courses) {
             courseContainer.style.cursor = 'pointer';
 
             courseContainer.addEventListener("click", function () {
-                window.location.href = "course-details.html?code=" + encodeURIComponent(courseCode) + "&description=" + encodeURIComponent(courseTitle);
+                window.location.href = "course-details.html?code=" + encodeURIComponent(courseCode) + "&title=" + encodeURIComponent(courseTitle) + "&credits=" + encodeURIComponent(credits);
             });
 
             courseContainer.innerHTML = `
