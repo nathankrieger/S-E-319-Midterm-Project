@@ -120,7 +120,7 @@ function generateMajors(majors) {
     });
 
     let backgroundImage = document.createElement("div");
-    backgroundImage.style.backgroundImage = `url('${major.photo}')`;
+    backgroundImage.style.backgroundImage = `url('${major["major-info"].img}')`;
     backgroundImage.style.backgroundSize = 'cover';
     backgroundImage.style.backgroundPosition = 'center';
     backgroundImage.style.opacity = '0.5';
