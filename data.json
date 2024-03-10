@@ -1,8 +1,18 @@
 [
     {
         "major": "Computer Engineering (CPRE)",
-        "flowchart": "./images/cpre_flowchart.jpg",
-        "photo": "./images/CPRE.jpg",
+        "flowchart": {
+            "img": "./images/cpre_flowchart.jpg",
+            "major": "Computer Engineering (CPRE)",
+            "credits": "127",
+            "year": "2023-2024"
+        },
+        "major-info": {
+            "img": "./images/CPRE.jpg",
+            "major": "Computer Engineering",
+            "college": "College of Engineering",
+            "abbr": "CPRE"
+        },
         "loc": "/azcourses/cpr_e/",
         "courses": [
             {
@@ -75,8 +85,18 @@
     },
     {
         "major": "Computer Science (COMS)",
-        "flowchart": "./images/coms_flowchart.jpg",
-        "photo": "./images/COMS.jpg",
+        "flowchart": {
+            "img": "./images/coms_flowchart.jpg",
+            "major": "Computer Science",
+            "credits": "120",
+            "year": "2023-2024"
+        },
+        "major-info": {
+            "img": "./images/COMS.jpg",
+            "major": "Computer Science",
+            "college": "College of Liberal Arts and Sciences",
+            "abbr": "COMS"
+        },
         "loc": "/azcourses/com_s/",
         "courses": [
             {
@@ -173,8 +193,18 @@
     },
     {
         "major": "Software Engineering (SE)",
-        "flowchart": "./images/se_flowchart.jpg",
-        "photo": "./images/SE.jpg",
+        "flowchart": {
+            "img": "./images/se_flowchart.jpg",
+            "major": "Software Engineering",
+            "credits": "125",
+            "year": "2023-2024"
+        },
+        "major-info": {
+            "img": "./images/SE.jpg",
+            "major": "Software Engineering",
+            "college": "College of Engineering",
+            "abbr": "SE"
+        },
         "loc": "/azcourses/s_e/",
         "courses": [
             {
