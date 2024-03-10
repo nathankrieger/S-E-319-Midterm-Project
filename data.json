@@ -2,6 +2,7 @@
     {
         "major": "Computer Engineering (CPRE)",
         "flowchart": "./images/cpre_flowchart.jpg",
+        "photo": "./images/CPRE.jpg",
         "loc": "/azcourses/cpr_e/",
         "courses": [
             {
@@ -75,6 +76,7 @@
     {
         "major": "Computer Science (COMS)",
         "flowchart": "./images/coms_flowchart.jpg",
+        "photo": "./images/COMS.jpg",
         "loc": "/azcourses/com_s/",
         "courses": [
             {
@@ -172,6 +174,7 @@
     {
         "major": "Software Engineering (SE)",
         "flowchart": "./images/se_flowchart.jpg",
+        "photo": "./images/SE.jpg",
         "loc": "/azcourses/s_e/",
         "courses": [
             {

@@ -95,7 +95,6 @@ function generateMajors(majors) {
   majors.forEach(major => {
 
 
-    /*********** */
     let column = document.createElement("div");
     column.classList.add("col");
     column.classList.add("d-flex");
@@ -113,18 +112,37 @@ function generateMajors(majors) {
     majorContainer.classList.add("mb-3"); // Add margin bottom between majors
     majorContainer.style.cursor = 'pointer';
     majorContainer.style.padding = '30px'; // Add padding to major container
+    majorContainer.style.borderRadius = '10px'; // Add border radius to container (optional);
+    majorContainer.style.position = 'relative'; // Position relative for containing absolutely positioned elements
 
     majorContainer.addEventListener("click", function () {
-      window.location.href = "major-courses.html?major=" + encodeURIComponent(major.major);
+        window.location.href = "major-courses.html?major=" + encodeURIComponent(major.major);
     });
 
-    majorContainer.innerHTML = `
-        <div class="text-center">
-            <h3 class="fs-2 text-body-emphasis text-center">${major.major}</h3>
-            
-        </div>`;
+    let backgroundImage = document.createElement("div");
+    backgroundImage.style.backgroundImage = `url('${major.photo}')`;
+    backgroundImage.style.backgroundSize = 'cover';
+    backgroundImage.style.backgroundPosition = 'center';
+    backgroundImage.style.opacity = '0.5';
+    backgroundImage.style.width = '100%';
+    backgroundImage.style.height = '100%';
+    backgroundImage.style.position = 'absolute';
+    backgroundImage.style.top = '0';
+    backgroundImage.style.left = '0';
+    backgroundImage.style.borderRadius = '10px'; // Same border radius as majorContainer
 
-    container.appendChild(majorContainer);
+    let textContainer = document.createElement("div");
+    textContainer.classList.add("text-center");
+    textContainer.style.position = 'relative'; // Make it relative to allow z-index to work
+    textContainer.style.zIndex = '1'; // Place text above the background image
+    textContainer.innerHTML = `
+        <h3 class="fs-2 text-body-emphasis text-center">${major.major}</h3>
+    `;
+
+    majorContainer.appendChild(backgroundImage);
+    majorContainer.appendChild(textContainer);
+    column.appendChild(majorContainer); // Append majorContainer to column instead of container
+    container.appendChild(column); // Append column to the main container
   });
 }
 
